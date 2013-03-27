@@ -9,7 +9,7 @@ How to include MTTestSemaphore in your project
 
 Clone this repo from [https://github.com/icanzilb/MTTestSemaphore](https://github.com/icanzilb/MTTestSemaphore) or download it as a zip file.
 
-Include the contents of the "**MTTestSemaphore**" sub-folder in your project - make sure that the **MTTestSemaphore** class is included in your Test target.
+Include the contents of the **MTTestSemaphore** sub-folder in your project - make sure that the **MTTestSemaphore** class is included in your Test target.
 
 
 How to use MTTestSemaphore in your unit tests
