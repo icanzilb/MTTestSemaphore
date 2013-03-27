@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2A032F1702F71200FF76DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A032E1702F71200FF76DA /* Default-568h@2x.png */; };
+		9C2A03311702F71900FF76DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A03301702F71900FF76DA /* Default.png */; };
+		9C2A03331702F72700FF76DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A03321702F72700FF76DA /* Default@2x.png */; };
+		9C2A03351702F73D00FF76DA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A03341702F73D00FF76DA /* Icon.png */; };
+		9C2A03371702F74100FF76DA /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A03361702F74100FF76DA /* Icon@2x.png */; };
+		9CE53C5F1702F188004242DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C5E1702F188004242DD /* UIKit.framework */; };
+		9CE53C611702F188004242DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C601702F188004242DD /* Foundation.framework */; };
+		9CE53C631702F188004242DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C621702F188004242DD /* CoreGraphics.framework */; };
+		9CE53C691702F188004242DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CE53C671702F188004242DD /* InfoPlist.strings */; };
+		9CE53C6B1702F188004242DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53C6A1702F188004242DD /* main.m */; };
+		9CE53C6F1702F188004242DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53C6E1702F188004242DD /* AppDelegate.m */; };
+		9CE53C781702F188004242DD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE53C761702F188004242DD /* MainStoryboard.storyboard */; };
+		9CE53C7B1702F188004242DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53C7A1702F188004242DD /* ViewController.m */; };
+		9CE53C831702F188004242DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C821702F188004242DD /* SenTestingKit.framework */; };
+		9CE53C841702F188004242DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C5E1702F188004242DD /* UIKit.framework */; };
+		9CE53C851702F188004242DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C601702F188004242DD /* Foundation.framework */; };
+		9CE53C8D1702F188004242DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CE53C8B1702F188004242DD /* InfoPlist.strings */; };
+		9CE53C901702F188004242DD /* MTTestSemaphoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53C8F1702F188004242DD /* MTTestSemaphoreDemoTests.m */; };
+		9CE53C9B1702F1FB004242DD /* MTTestSemaphor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE53C9A1702F1FB004242DD /* MTTestSemaphor.m */; };
+		9CE53C9D1702F39D004242DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE53C9C1702F39D004242DD /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CE53C861702F188004242DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CE53C531702F188004242DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CE53C5A1702F188004242DD;
+			remoteInfo = MTTestSemaphoreDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C2A032E1702F71200FF76DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		9C2A03301702F71900FF76DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		9C2A03321702F72700FF76DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		9C2A03341702F73D00FF76DA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		9C2A03361702F74100FF76DA /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		9CE53C5B1702F188004242DD /* MTTestSemaphoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTTestSemaphoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE53C5E1702F188004242DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CE53C601702F188004242DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CE53C621702F188004242DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CE53C661702F188004242DD /* MTTestSemaphoreDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTTestSemaphoreDemo-Info.plist"; sourceTree = "<group>"; };
+		9CE53C681702F188004242DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CE53C6A1702F188004242DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CE53C6C1702F188004242DD /* MTTestSemaphoreDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTestSemaphoreDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9CE53C6D1702F188004242DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CE53C6E1702F188004242DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CE53C771702F188004242DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9CE53C791702F188004242DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CE53C7A1702F188004242DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CE53C811702F188004242DD /* MTTestSemaphoreDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTTestSemaphoreDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE53C821702F188004242DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9CE53C8A1702F188004242DD /* MTTestSemaphoreDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTTestSemaphoreDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9CE53C8C1702F188004242DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CE53C8E1702F188004242DD /* MTTestSemaphoreDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTestSemaphoreDemoTests.h; sourceTree = "<group>"; };
+		9CE53C8F1702F188004242DD /* MTTestSemaphoreDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTestSemaphoreDemoTests.m; sourceTree = "<group>"; };
+		9CE53C991702F1FB004242DD /* MTTestSemaphor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTTestSemaphor.h; path = MTTestSemaphore/MTTestSemaphor.h; sourceTree = "<group>"; };
+		9CE53C9A1702F1FB004242DD /* MTTestSemaphor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTTestSemaphor.m; path = MTTestSemaphore/MTTestSemaphor.m; sourceTree = "<group>"; };
+		9CE53C9C1702F39D004242DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CE53C581702F188004242DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C5F1702F188004242DD /* UIKit.framework in Frameworks */,
+				9CE53C611702F188004242DD /* Foundation.framework in Frameworks */,
+				9CE53C631702F188004242DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE53C7D1702F188004242DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C9D1702F39D004242DD /* CoreLocation.framework in Frameworks */,
+				9CE53C831702F188004242DD /* SenTestingKit.framework in Frameworks */,
+				9CE53C841702F188004242DD /* UIKit.framework in Frameworks */,
+				9CE53C851702F188004242DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CE53C521702F188004242DD = {
+			isa = PBXGroup;
+			children = (
+				9CE53C991702F1FB004242DD /* MTTestSemaphor.h */,
+				9CE53C9A1702F1FB004242DD /* MTTestSemaphor.m */,
+				9CE53C641702F188004242DD /* MTTestSemaphoreDemo */,
+				9CE53C881702F188004242DD /* MTTestSemaphoreDemoTests */,
+				9CE53C5D1702F188004242DD /* Frameworks */,
+				9CE53C5C1702F188004242DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CE53C5C1702F188004242DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CE53C5B1702F188004242DD /* MTTestSemaphoreDemo.app */,
+				9CE53C811702F188004242DD /* MTTestSemaphoreDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CE53C5D1702F188004242DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE53C9C1702F39D004242DD /* CoreLocation.framework */,
+				9CE53C5E1702F188004242DD /* UIKit.framework */,
+				9CE53C601702F188004242DD /* Foundation.framework */,
+				9CE53C621702F188004242DD /* CoreGraphics.framework */,
+				9CE53C821702F188004242DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CE53C641702F188004242DD /* MTTestSemaphoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9CE53C6D1702F188004242DD /* AppDelegate.h */,
+				9CE53C6E1702F188004242DD /* AppDelegate.m */,
+				9CE53C761702F188004242DD /* MainStoryboard.storyboard */,
+				9CE53C791702F188004242DD /* ViewController.h */,
+				9CE53C7A1702F188004242DD /* ViewController.m */,
+				9CE53C651702F188004242DD /* Supporting Files */,
+			);
+			path = MTTestSemaphoreDemo;
+			sourceTree = "<group>";
+		};
+		9CE53C651702F188004242DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2A03361702F74100FF76DA /* Icon@2x.png */,
+				9C2A03341702F73D00FF76DA /* Icon.png */,
+				9C2A03321702F72700FF76DA /* Default@2x.png */,
+				9C2A03301702F71900FF76DA /* Default.png */,
+				9C2A032E1702F71200FF76DA /* Default-568h@2x.png */,
+				9CE53C661702F188004242DD /* MTTestSemaphoreDemo-Info.plist */,
+				9CE53C671702F188004242DD /* InfoPlist.strings */,
+				9CE53C6A1702F188004242DD /* main.m */,
+				9CE53C6C1702F188004242DD /* MTTestSemaphoreDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CE53C881702F188004242DD /* MTTestSemaphoreDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CE53C8E1702F188004242DD /* MTTestSemaphoreDemoTests.h */,
+				9CE53C8F1702F188004242DD /* MTTestSemaphoreDemoTests.m */,
+				9CE53C891702F188004242DD /* Supporting Files */,
+			);
+			path = MTTestSemaphoreDemoTests;
+			sourceTree = "<group>";
+		};
+		9CE53C891702F188004242DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CE53C8A1702F188004242DD /* MTTestSemaphoreDemoTests-Info.plist */,
+				9CE53C8B1702F188004242DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CE53C5A1702F188004242DD /* MTTestSemaphoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE53C931702F188004242DD /* Build configuration list for PBXNativeTarget "MTTestSemaphoreDemo" */;
+			buildPhases = (
+				9CE53C571702F188004242DD /* Sources */,
+				9CE53C581702F188004242DD /* Frameworks */,
+				9CE53C591702F188004242DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTTestSemaphoreDemo;
+			productName = MTTestSemaphoreDemo;
+			productReference = 9CE53C5B1702F188004242DD /* MTTestSemaphoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CE53C801702F188004242DD /* MTTestSemaphoreDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE53C961702F188004242DD /* Build configuration list for PBXNativeTarget "MTTestSemaphoreDemoTests" */;
+			buildPhases = (
+				9CE53C7C1702F188004242DD /* Sources */,
+				9CE53C7D1702F188004242DD /* Frameworks */,
+				9CE53C7E1702F188004242DD /* Resources */,
+				9CE53C7F1702F188004242DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CE53C871702F188004242DD /* PBXTargetDependency */,
+			);
+			name = MTTestSemaphoreDemoTests;
+			productName = MTTestSemaphoreDemoTests;
+			productReference = 9CE53C811702F188004242DD /* MTTestSemaphoreDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CE53C531702F188004242DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Marin Todorov";
+			};
+			buildConfigurationList = 9CE53C561702F188004242DD /* Build configuration list for PBXProject "MTTestSemaphoreDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CE53C521702F188004242DD;
+			productRefGroup = 9CE53C5C1702F188004242DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CE53C5A1702F188004242DD /* MTTestSemaphoreDemo */,
+				9CE53C801702F188004242DD /* MTTestSemaphoreDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CE53C591702F188004242DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C691702F188004242DD /* InfoPlist.strings in Resources */,
+				9CE53C781702F188004242DD /* MainStoryboard.storyboard in Resources */,
+				9C2A032F1702F71200FF76DA /* Default-568h@2x.png in Resources */,
+				9C2A03311702F71900FF76DA /* Default.png in Resources */,
+				9C2A03331702F72700FF76DA /* Default@2x.png in Resources */,
+				9C2A03351702F73D00FF76DA /* Icon.png in Resources */,
+				9C2A03371702F74100FF76DA /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE53C7E1702F188004242DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C8D1702F188004242DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CE53C7F1702F188004242DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE53C571702F188004242DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C6B1702F188004242DD /* main.m in Sources */,
+				9CE53C6F1702F188004242DD /* AppDelegate.m in Sources */,
+				9CE53C7B1702F188004242DD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE53C7C1702F188004242DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE53C901702F188004242DD /* MTTestSemaphoreDemoTests.m in Sources */,
+				9CE53C9B1702F1FB004242DD /* MTTestSemaphor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CE53C871702F188004242DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CE53C5A1702F188004242DD /* MTTestSemaphoreDemo */;
+			targetProxy = 9CE53C861702F188004242DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CE53C671702F188004242DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE53C681702F188004242DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CE53C761702F188004242DD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE53C771702F188004242DD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9CE53C8B1702F188004242DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CE53C8C1702F188004242DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CE53C911702F188004242DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CE53C921702F188004242DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CE53C941702F188004242DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CE53C951702F188004242DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9CE53C971702F188004242DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTTestSemaphoreDemo.app/MTTestSemaphoreDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTestSemaphoreDemoTests/MTTestSemaphoreDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9CE53C981702F188004242DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTTestSemaphoreDemo.app/MTTestSemaphoreDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTestSemaphoreDemo/MTTestSemaphoreDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTestSemaphoreDemoTests/MTTestSemaphoreDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CE53C561702F188004242DD /* Build configuration list for PBXProject "MTTestSemaphoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE53C911702F188004242DD /* Debug */,
+				9CE53C921702F188004242DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE53C931702F188004242DD /* Build configuration list for PBXNativeTarget "MTTestSemaphoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE53C941702F188004242DD /* Debug */,
+				9CE53C951702F188004242DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE53C961702F188004242DD /* Build configuration list for PBXNativeTarget "MTTestSemaphoreDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE53C971702F188004242DD /* Debug */,
+				9CE53C981702F188004242DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CE53C531702F188004242DD /* Project object */;
+}
